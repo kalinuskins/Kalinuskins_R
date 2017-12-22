@@ -1,0 +1,7 @@
+C:\Users\oleg\Desktop\Programeshana\SmarterCalculator\SmarterCalculator\bin\Debug\SmarterCalculator.exe.config
+C:\Users\oleg\Desktop\Programeshana\SmarterCalculator\SmarterCalculator\bin\Debug\SmarterCalculator.exe
+C:\Users\oleg\Desktop\Programeshana\SmarterCalculator\SmarterCalculator\bin\Debug\SmarterCalculator.pdb
+C:\Users\oleg\Desktop\Programeshana\SmarterCalculator\SmarterCalculator\obj\Debug\SmarterCalculator.csprojResolveAssemblyReference.cache
+C:\Users\oleg\Desktop\Programeshana\SmarterCalculator\SmarterCalculator\obj\Debug\SmarterCalculator.csproj.CoreCompileInputs.cache
+C:\Users\oleg\Desktop\Programeshana\SmarterCalculator\SmarterCalculator\obj\Debug\SmarterCalculator.exe
+C:\Users\oleg\Desktop\Programeshana\SmarterCalculator\SmarterCalculator\obj\Debug\SmarterCalculator.pdb
