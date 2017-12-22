@@ -66,7 +66,10 @@ namespace Buy_List
         private void BuyItemsListControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var selectedItem = this.BuyItemsListControl.SelectedItems[0] as string;
+
             this.BuyItemsList.Remove(selectedItem);
         }
+
+
     }
 }

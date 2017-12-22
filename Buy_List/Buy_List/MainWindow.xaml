@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525" Cursor="Arrow">
     <Grid Background="Azure">
-        <TextBox x:Name="BuyListItemName" HorizontalAlignment="Left" Height="89" TextWrapping="Wrap" Text="Broot" VerticalAlignment="Top" Width="197" TextChanged="BuyListItemName_TextChanged" Margin="23,87,0,0"/>
+        <TextBox x:Name="BuyListItemName" HorizontalAlignment="Left" Height="89" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="197" TextChanged="BuyListItemName_TextChanged" Margin="23,87,0,0"/>
         <Button x:Name= "AddListItemButton" Click="AddListItemButton_Click"  Content="Pievienot pirkumu" HorizontalAlignment="Left" Margin="314,5,0,0" VerticalAlignment="Top" Width="164" Height="61"/>
         <TextBlock x:Name="BuyItemName" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ludzu Ievadiet pirkumu" VerticalAlignment="Top" Margin="0,49,0,0" Height="35" Width="211"/>
         <ScrollViewer Margin="457,3,5,5" RenderTransformOrigin="0.957,0.875">
