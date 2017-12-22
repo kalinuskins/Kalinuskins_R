@@ -13,3 +13,10 @@ C:\Users\oleg\Desktop\Programeshana\Buy_List\Buy_List\obj\Debug\Buy_List.csproj.
 C:\Users\oleg\Desktop\Programeshana\Buy_List\Buy_List\obj\Debug\Buy_List.csproj.CoreCompileInputs.cache
 C:\Users\oleg\Desktop\Programeshana\Buy_List\Buy_List\obj\Debug\Buy_List.exe
 C:\Users\oleg\Desktop\Programeshana\Buy_List\Buy_List\obj\Debug\Buy_List.pdb
+C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Buy_List.csprojResolveAssemblyReference.cache
+C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\MainWindow.g.cs
+C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\App.g.cs
+C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Buy_List_MarkupCompile.cache
+C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Buy_List_MarkupCompile.lref
+C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Buy_List.exe
+C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Buy_List.pdb

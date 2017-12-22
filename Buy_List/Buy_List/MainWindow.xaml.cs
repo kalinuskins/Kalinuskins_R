@@ -16,6 +16,7 @@ using System.Windows.Shapes;
 namespace Buy_List
 {
     using System.Collections.ObjectModel;
+    using System.IO; // lauj manipulet failus
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
@@ -41,13 +42,22 @@ namespace Buy_List
           string enteredItemToBuy = this.BuyListItemName.Text;
           this.BuyListItemName.Text = " ";
 
-        // ierakstam ieguto vertibu texta bloka
-          this.BuyListItemName.add(enteredItemToBuy);
+          // ierakstam ieguto vertibu texta bloka
+          this.BuyListItemName.Add(enteredItemToBuy);
         }
 
-        private void BuyListItemName_TextChanged(object sender, TextChangedEventArgs e)
+
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-         
+            
+            File.WriteAllLines(@"C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\mans_fails.txt", this.BuyItemsList);
+            
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string todosFromFile = File.ReadAllText(@"C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\mans_fails.txt");
+            this.BuyItemsList.Add(todosFromFile);
         }
     }
 }
