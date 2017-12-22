@@ -22,7 +22,7 @@ namespace Buy_List
     /// </summary>
     public partial class MainWindow : Window
     {
-        public ObservableCollection<string> BuyItemsList = new ObservableCollection<string>();
+      public ObservableCollection<string> BuyItemsList = new ObservableCollection<string>();
     
         public MainWindow()
         {
@@ -40,10 +40,7 @@ namespace Buy_List
         private void AddListItemButton_OnClick(object sender, RoutedEventArgs e)
         {
           string enteredItemToBuy = this.BuyListItemName.Text;
-          this.BuyListItemName.Text = " ";
-
-          // ierakstam ieguto vertibu texta bloka
-          this.BuyListItemName.Add(enteredItemToBuy);
+          this.BuyListItemName.Text = "3";
         }
 
 
@@ -58,6 +55,12 @@ namespace Buy_List
         {
             string todosFromFile = File.ReadAllText(@"C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\mans_fails.txt");
             this.BuyItemsList.Add(todosFromFile);
+        }
+
+        private void BuyItemsListControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var selectedItem = this.BuyItemsListControl.SelectedItems[0] as string;
+            this.BuyItemsList.Remove(selectedItem);
         }
     }
 }
