@@ -40,7 +40,7 @@ namespace Buy_List
         private void AddListItemButton_OnClick(object sender, RoutedEventArgs e)
         {
           string enteredItemToBuy = this.BuyListItemName.Text;
-          this.BuyListItemName.Text = "3";
+            this.BuyListItemName.Text = "";
         }
 
 
@@ -53,8 +53,14 @@ namespace Buy_List
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            string todosFromFile = File.ReadAllText(@"C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\mans_fails.txt");
-            this.BuyItemsList.Add(todosFromFile);
+            var todosFromFile = File.ReadAllLines(@"C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\mans_fails.txt");
+            for (int i = 0; i < todosFromFile.Length; i++)
+            {
+                var currentTodo = todosFromFile[i];
+                this.BuyItemsList.Add(currentTodo);
+            }
+
+            MessageBox.Show("all items have been loaded");
         }
 
         private void BuyItemsListControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
