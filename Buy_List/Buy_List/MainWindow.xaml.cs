@@ -22,11 +22,12 @@ namespace Buy_List
     /// </summary>
     public partial class MainWindow : Window
     {
-      public ObservableCollection<string> BuyItemsList = new ObservableCollection<string>();
+        private readonly object BuyListItemName;
+        public ObservableCollection<string> BuyItemsList = new ObservableCollection<string>();
     
         public MainWindow()
         {
-            InitializeComponent();
+            
 
             this.BuyListItemName.Text = "Ludzu ievadiet pirkumu";
             this.BuyItemsList.Add("aboli");
@@ -40,7 +41,7 @@ namespace Buy_List
         private void AddListItemButton_OnClick(object sender, RoutedEventArgs e)
         {
           string enteredItemToBuy = this.BuyListItemName.Text;
-            this.BuyListItemName.Text = "";
+            BuyListItemName.Text = "";
         }
 
 
@@ -66,10 +67,14 @@ namespace Buy_List
         private void BuyItemsListControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var selectedItem = this.BuyItemsListControl.SelectedItems[0] as string;
-
+            // paraksta kodu
             this.BuyItemsList.Remove(selectedItem);
         }
 
 
+        private void BuyListItemName_OnKeyDown(object sender, KeyEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

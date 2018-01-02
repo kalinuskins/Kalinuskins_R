@@ -20,3 +20,8 @@ C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Bu
 C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Buy_List_MarkupCompile.lref
 C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Buy_List.exe
 C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Buy_List.pdb
+C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\MainWindow.baml
+C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Buy_List.g.resources
+C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Buy_List.Properties.Resources.resources
+C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Buy_List.csproj.GenerateResource.Cache
+C:\Users\oleg\Desktop\Programeshana\Kalinuskins_R\Buy_List\Buy_List\obj\Debug\Buy_List.csproj.CoreCompileInputs.cache
